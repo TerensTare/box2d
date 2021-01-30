@@ -220,7 +220,7 @@ own bounding box in the broad-phase collision tree.
 
 ```cpp
 // Visit each child edge.
-for (int32 i = 0; i \< chain.GetChildCount(); ++i)
+for (int32 i = 0; i < chain.GetChildCount(); ++i)
 {
     b2EdgeShape edge;
     chain.GetChildEdge(&edge, i);
